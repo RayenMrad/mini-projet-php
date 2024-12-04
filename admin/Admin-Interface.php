@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="../style.css">
+<link rel="stylesheet" href="../admin.css">
 <?php include '../include.php'; ?>
 
 <!-- Admin Interface -->

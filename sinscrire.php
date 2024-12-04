@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="l.css">
 <?php
 include 'include.php'; // Inclure la connexion PDO
 

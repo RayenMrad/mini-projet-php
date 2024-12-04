@@ -1,0 +1,144 @@
+/* Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
+body {
+  background-image: url("cars.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  font-size: 16px;
+}
+
+/* Form Container */
+fieldset {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.8
+  ); /* Slightly transparent white background */
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  padding: 30px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+legend {
+  text-align: center;
+  font-size: 1.6em;
+  color: #007bff;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #007bff;
+}
+
+/* Error Message */
+p {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Form Inputs and Labels */
+label {
+  display: block;
+  margin: 15px 0 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+  transition: all 0.3s ease;
+}
+
+input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Link Styling */
+#a {
+  text-decoration: none;
+  color: #393943;
+  font-size: 1.1em;
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+}
+
+#a:hover {
+  color: #007bff;
+}
+
+/* Button Styling */
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 1.1em;
+  text-transform: uppercase;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #2128fb;
+  transform: scale(1.05);
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+/* Link Styling */
+button[type="button"] {
+  background-color: #f44336;
+}
+
+button[type="button"]:hover {
+  background-color: #e53935;
+}
+
+button[type="button"]:active {
+  transform: scale(0.98);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  fieldset {
+    padding: 20px;
+  }
+
+  input,
+  button {
+    padding: 10px;
+  }
+
+  button {
+    font-size: 1em;
+  }
+}
