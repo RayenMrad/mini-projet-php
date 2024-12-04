@@ -1,0 +1,146 @@
+/* Body Styling */
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("a.jpg");
+  background-repeat: no-repeat; /* Ensures the image does not repeat */
+  background-size: cover; /* Ensures the image covers the entire viewport */
+  background-position: center center; /* Centers the image */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Fieldset Styling */
+fieldset {
+  background: linear-gradient(135deg, #ffffff, #f3f4f5);
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  padding: 30px 20px;
+  width: 400px;
+  text-align: center;
+  animation: float 4s ease-in-out infinite;
+}
+
+/* Legend Styling */
+legend {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #000000;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  margin-bottom: 50px;
+}
+
+/* Label Styling */
+label {
+  display: block;
+  margin: 10px 0 5px;
+  font-size: 1.1rem;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Input Fields Styling */
+input[type="text"],
+input[type="number"],
+input[type="password"],
+input[type="email"],
+select {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 2px solid #3465f9;
+  border-radius: 10px;
+  font-size: 1rem;
+  transition: 0.3s;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus {
+  border-color: #3465f9;
+  outline: none;
+  box-shadow: 0 0 8px rgba(255, 107, 107, 0.8);
+}
+
+/* Button Styling */
+button {
+  padding: 10px 30px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background: linear-gradient(135deg, #3140c9, #1122ba);
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 5px 10px rgba(255, 107, 107, 0.3);
+  margin-top: 15px;
+}
+
+button:hover {
+  background: linear-gradient(135deg, #ff3b3b, #c31c1c);
+  box-shadow: 0 8px 15px rgba(255, 59, 59, 0.5);
+  transform: scale(1.05);
+}
+
+button:active {
+  transform: scale(1);
+  box-shadow: 0 3px 8px rgba(255, 59, 59, 0.5);
+}
+
+/* Responsive Styling */
+@media (max-width: 500px) {
+  fieldset {
+    width: 90%;
+  }
+
+  button {
+    padding: 8px 20px;
+    font-size: 1rem;
+  }
+}
+.Admin-F {
+  background-color: #ffffff; /* White background */
+  padding: 40px;
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  text-align: center;
+  width: 100%;
+  max-width: 500px; /* Max width to prevent stretching on large screens */
+}
+
+/* Styling for the header text */
+.Admin-F p {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333; /* Dark color for text */
+  margin-bottom: 20px;
+}
+
+/* Button container styling */
+.admin-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Space between buttons */
+}
+
+/* Button styling */
+button {
+  padding: 15px 30px;
+  font-size: 18px;
+  background-color: #4caf50; /* Green background */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 150px; /* Fixed width for uniformity */
+}
